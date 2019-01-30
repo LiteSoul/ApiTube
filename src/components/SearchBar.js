@@ -18,7 +18,7 @@ export default function SearchBar({ onTermSubmit }) {
 		<div className="search-bar ui segment">
 			<form onSubmit={onFormSubmit} className="ui form">
 				<div className="field">
-					<label>Video Search</label>
+					<label>FasterTube</label>
 					<input type="text" placeholder={input} onChange={onInputChange} />
 				</div>
 			</form>
